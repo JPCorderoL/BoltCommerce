@@ -4,9 +4,16 @@
 
 Módulo de autenticación, autorización y administración de usuarios. Permite registrar usuarios, iniciar y cerrar sesión, asignar roles, editar los permisos de cada rol, restringir las funcionalidades según el perfil y auditar las operaciones.
 
-- Historias de usuario y criterios de aceptación: [docs/historias-usuario.md](docs/historias-usuario.md)
-- Casos de prueba y resultados: [docs/pruebas.md](docs/pruebas.md)
-- Evidencia (video y capturas): [docs/evidencia/](docs/evidencia/README.md)
+## Entregables
+
+| Entregable | Dónde |
+|---|---|
+| Repositorio Git | Este repositorio (rama `main`) |
+| Versión ejecutable | [Sección 2: Instalación y ejecución](#2-instalación-y-ejecución) |
+| Historias terminadas | HU-01 a HU-08, con criterios de aceptación: [docs/historias-usuario.md](docs/historias-usuario.md) |
+| Pruebas | 17 casos (CP-01 a CP-17), **17/17 aprobados**: [docs/pruebas.md](docs/pruebas.md) |
+| Evidencia | [Video de la demostración](docs/evidencia/demo-epica1.webm) (descargar para verlo) y [14 capturas](docs/evidencia/README.md) |
+| Documentación | Este README, las historias de usuario y las pruebas |
 
 ---
 
