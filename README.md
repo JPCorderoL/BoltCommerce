@@ -6,6 +6,7 @@ Módulo de autenticación, autorización y administración de usuarios. Permite 
 
 - Historias de usuario y criterios de aceptación: [docs/historias-usuario.md](docs/historias-usuario.md)
 - Casos de prueba y resultados: [docs/pruebas.md](docs/pruebas.md)
+- Evidencia (video y capturas): [docs/evidencia/](docs/evidencia/README.md)
 
 ---
 
