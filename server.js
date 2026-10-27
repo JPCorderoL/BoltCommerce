@@ -21,5 +21,5 @@ const db = abrirBaseDatos(process.env.DB_PATH || path.join(__dirname, 'data', 'a
 });
 
 crearApp(db).listen(PORT, () => {
-  console.log(`e-Commerce inmobiliaria escuchando en http://localhost:${PORT}`);
+  console.log(`BoltCommerce escuchando en http://localhost:${PORT}`);
 });

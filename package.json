@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-inmobiliaria",
+  "name": "boltcommerce",
   "version": "1.0.0",
   "description": "e-Commerce inmobiliaria y diseño arquitectónico - Épica 1: Gestión de usuarios, roles, permisos y accesos.",
   "main": "server.js",

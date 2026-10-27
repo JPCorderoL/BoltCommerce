@@ -18,7 +18,7 @@ function h(tag, props, ...hijos) {
     else if (clave === 'style') el.style.cssText = valor; // via CSSOM: la CSP bloquea atributos style inline
     else el.setAttribute(clave, valor === true ? '' : valor);
   }
-  for (const hijo of hijos.flat()) {
+  for (const hijo of hijos.flat(Infinity)) {
     if (hijo == null || hijo === false) continue;
     el.append(hijo instanceof Node ? hijo : String(hijo));
   }
@@ -77,7 +77,7 @@ function vistaDenegada(resp) {
 function marcoAcceso(...contenido) {
   return h('div', { class: 'acceso' },
     h('section', { class: 'acceso-marca' },
-      h('div', { class: 'logo' }, 'Horizonte ', h('span', {}, '·'), ' Inmobiliaria & Diseño'),
+      h('div', { class: 'logo' }, 'BoltCommerce ', h('span', {}, '·'), ' Inmobiliaria & Diseño'),
       h('h1', {}, 'Propiedades y arquitectura en un solo lugar.'),
       h('small', { style: 'color:#cfdcd9' }, 'Épica 1 · Gestión de usuarios y accesos')),
     h('section', { class: 'acceso-panel' }, h('div', { class: 'acceso-caja' }, ...contenido)));
@@ -174,7 +174,7 @@ function shell(vistaActual, contenido) {
 
   const salir = h('button', { class: 'chico', onclick: cerrarSesion }, 'Cerrar sesión');
   return h('div', { class: 'shell' },
-    h('aside', { class: 'lateral' }, h('div', { class: 'logo' }, 'Horizonte ', h('span', {}, '·')), nav),
+    h('aside', { class: 'lateral' }, h('div', { class: 'logo' }, 'BoltCommerce ', h('span', {}, '·')), nav),
     h('div', { class: 'cuerpo' },
       h('header', { class: 'barra' },
         h('strong', {}, vistaActual.titulo),

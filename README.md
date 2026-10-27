@@ -1,4 +1,4 @@
-# Horizonte · e-Commerce Inmobiliaria y Diseño Arquitectónico
+# BoltCommerce · e-Commerce Inmobiliaria y Diseño Arquitectónico
 
 **Incremento: Épica 1 — Configuración / Gestión de Usuarios y Accesos**
 
@@ -22,8 +22,8 @@ Módulo de autenticación, autorización y administración de usuarios. Permite 
 ## 2. Instalación y ejecución
 
 ```bash
-git clone <url-del-repositorio>
-cd ecommerce-inmobiliaria
+git clone https://github.com/JPCorderoL/BoltCommerce.git
+cd BoltCommerce
 npm install
 npm start
 ```

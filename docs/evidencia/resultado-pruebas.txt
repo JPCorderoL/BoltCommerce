@@ -1,24 +1,24 @@
 ﻿
-> ecommerce-inmobiliaria@1.0.0 test
+> boltcommerce@1.0.0 test
 > node --disable-warning=ExperimentalWarning --test
 
-✔ CP-01 (HU-01) registro válido crea la cuenta con rol Cliente y contraseña cifrada (141.4759ms)
-✔ CP-02 (HU-01) registro con correo duplicado es rechazado (7.1998ms)
-✔ CP-03 (HU-01) registro con datos inválidos es rechazado (39.0984ms)
-✔ CP-04 (HU-02) inicio de sesión correcto entrega cookie HttpOnly y el perfil con permisos (76.153ms)
-✔ CP-05 (HU-02) credenciales incorrectas devuelven un mensaje genérico (118.7145ms)
-✔ CP-06 (HU-02) la cuenta se bloquea tras 5 intentos fallidos y el admin puede desbloquearla (600.2892ms)
-✔ CP-07 (HU-03) cerrar sesión invalida el token en el servidor (95.8105ms)
-✔ CP-08 (HU-07) sin sesión, todos los endpoints protegidos responden 401 (60.853ms)
-✔ CP-09 (HU-07) Cliente: solo consulta; no publica ni administra (193.4764ms)
-✔ CP-10 (HU-07) Agente Inmobiliario: publica propiedades pero no diseños (109.7241ms)
-✔ CP-11 (HU-07) Arquitecto: crea diseños pero no publica propiedades (92.791ms)
-✔ CP-12 (HU-05) el admin asigna un rol y el cambio aplica de inmediato, sin volver a iniciar sesión (177.4584ms)
-✔ CP-13 (HU-04/HU-05) el admin no puede quitarse su rol ni desactivarse (evita quedar sin administrador) (112.9226ms)
-✔ CP-14 (HU-04) desactivar un usuario cierra sus sesiones y le impide entrar (314.8018ms)
-✔ CP-15 (HU-06) crear un rol personalizado y editar sus permisos (481.6952ms)
-✔ CP-16 (HU-06) el rol Administrador no se edita, los roles base no se eliminan y un rol en uso tampoco (198.7039ms)
-✔ CP-17 (HU-08) la bitácora registra accesos, denegaciones y cambios de permisos (75.6731ms)
+✔ CP-01 (HU-01) registro válido crea la cuenta con rol Cliente y contraseña cifrada (174.2488ms)
+✔ CP-02 (HU-01) registro con correo duplicado es rechazado (11.4071ms)
+✔ CP-03 (HU-01) registro con datos inválidos es rechazado (21.5337ms)
+✔ CP-04 (HU-02) inicio de sesión correcto entrega cookie HttpOnly y el perfil con permisos (75.7212ms)
+✔ CP-05 (HU-02) credenciales incorrectas devuelven un mensaje genérico (150.2836ms)
+✔ CP-06 (HU-02) la cuenta se bloquea tras 5 intentos fallidos y el admin puede desbloquearla (597.2701ms)
+✔ CP-07 (HU-03) cerrar sesión invalida el token en el servidor (93.0534ms)
+✔ CP-08 (HU-07) sin sesión, todos los endpoints protegidos responden 401 (62.5668ms)
+✔ CP-09 (HU-07) Cliente: solo consulta; no publica ni administra (178.5538ms)
+✔ CP-10 (HU-07) Agente Inmobiliario: publica propiedades pero no diseños (105.4077ms)
+✔ CP-11 (HU-07) Arquitecto: crea diseños pero no publica propiedades (94.9601ms)
+✔ CP-12 (HU-05) el admin asigna un rol y el cambio aplica de inmediato, sin volver a iniciar sesión (177.5167ms)
+✔ CP-13 (HU-04/HU-05) el admin no puede quitarse su rol ni desactivarse (evita quedar sin administrador) (125.5431ms)
+✔ CP-14 (HU-04) desactivar un usuario cierra sus sesiones y le impide entrar (355.0031ms)
+✔ CP-15 (HU-06) crear un rol personalizado y editar sus permisos (379.8872ms)
+✔ CP-16 (HU-06) el rol Administrador no se edita, los roles base no se eliminan y un rol en uso tampoco (132.2578ms)
+✔ CP-17 (HU-08) la bitácora registra accesos, denegaciones y cambios de permisos (82.2371ms)
 ℹ tests 17
 ℹ suites 0
 ℹ pass 17
@@ -26,5 +26,5 @@
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 3540.0499
+ℹ duration_ms 3467.6693
 
